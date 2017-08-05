@@ -1,6 +1,6 @@
 <?php
 
-$db = new PDO('mysql:host=127.0.0.1;dbname=website', 'root', '');
+require 'includes/db.inc.php';
 
 if (isset($_POST['email'])) {
     $email = $_POST['email'];
